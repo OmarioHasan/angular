@@ -363,7 +363,7 @@ Then inject it inside a test by calling `TestBed.inject()` with the service clas
 The `get` method wasn't type safe, it always returned `any`, and this is error prone.
 We decided to migrate to a new function instead of updating the existing one given
 the large scale use that would have an immense amount of breaking changes
-**The `get` method was deprecated since v9 and might be removed in one of the future versions of Angular**.
+**The `get` method was deprecated since v9 and might be removed in one of the future versions of Angular.**.
 
 </div>
 
