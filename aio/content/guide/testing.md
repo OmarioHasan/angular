@@ -359,7 +359,7 @@ Then inject it inside a test by calling `TestBed.inject()` with the service clas
 
 <div class="alert is-helpful">
 
-**Note:** We used to have `TestBed.get()` - **will be deprecated in v12** - instead of `TestBed.inject()`.
+**Note:** We used to have `TestBed.get()` instead of `TestBed.inject()`.
 The `get` method wasn't type safe, it always returned `any`, and this is error prone.
 We decided to migrate to a new function instead of updating the existing one given
 the large scale use that would have an immense amount of breaking changes.
